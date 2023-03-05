@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-}
+  }
 
 .container {
   max-width: 1300px;
@@ -54,17 +54,26 @@ header a {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-top: 32px;
+  
 }
+
 
 @media (max-width: 900px) {
   header {
-    padding: 0;
+    padding: 60px 0;
   }
 
-  h1 {
-    font-size: 45px;
+  header h1 {
+    font-size: 48px;
+    color: red;
   }
-  h2 {
+
+  header h2 {
     font-size: 20px;
   }
+
+  header h3 {
+    font-size: 12px;
+  }
 }
+
