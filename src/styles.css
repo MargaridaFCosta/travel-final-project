@@ -165,6 +165,13 @@ footer p {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:30px;
+  margin-top: 20px;
+}
 .image-responsive {
   width: 112%;
   display: block;
@@ -201,6 +208,10 @@ footer p {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+
+.image-my-gallery {
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
